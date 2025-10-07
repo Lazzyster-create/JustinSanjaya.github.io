@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daftar Mata Pelajaran Kelas 12 DKV 2</title>
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  }
+  th, td {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 8px 6px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .col-no {
+    width: 40px;
+  }
+  .col-jam {
+    width: 90px;
+    background-color: #03f7ff;
+    font-weight: 600;
+    color: #333;
+  }
+  .col-senin {
+    background-color: #0524d3;
+    color: white;
+  }
+  .col-selasa {
+    background-color: #0524d3;
+    color: white;
+  }
+  .col-rabu {
+    background-color: #0524d3;
+    color: white;
+  }
+  .col-kamis {
+    background-color: #0524d3;
+    color: white;
+  }
+  .col-jumat {
+    background-color: #0524d3;
+    color: white;
+  }
+  tr.istirahat td {
+    font-weight: bold;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    background: #f0f0f0;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+  }
+  /* Responsive for small screens */
+  @media (max-width: 600px) {
+    table, thead, tbody, th, td, tr { 
+      display: block; 
+    }
+    thead tr {
+      display: none;
+    }
+    tr {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ddd;
+    }
+    td {
+      border: none;
+      position: relative;
+      padding-left: 50%;
+      text-align: left;
+      font-size: 13px;
+    }
+    td::before {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 45%;
+      font-weight: bold;
+      white-space: nowrap;
+      text-transform: uppercase;
+      content: attr(data-label);
+      font-size: 13px;
+      color: #555;
+    }
+    .col-no, .col-jam {
+      background-color: #fff102 !important;
+      font-weight: 700;
+    }
+    .col-senin, .col-selasa, .col-rabu, .col-kamis, .col-jumat {
+      background-color: #e60000 !important;
+      color: white !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Daftar Mata Pelajaran Kelas XII-DKV 2</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th class="col-no">No.</th>
+      <th class="col-jam">Jam</th>
+      <th class="col-senin">Senin</th>
+      <th class="col-selasa">Selasa</th>
+      <th class="col-rabu">Rabu</th>
+      <th class="col-kamis">Kamis</th>
+      <th class="col-jumat">Jumat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-no">1.</td>
+      <td class="col-jam">07.00 - 07.40</td>
+      <td class="col-senin">Upacara/Senam</td>
+      <td class="col-selasa">PKN</td>
+      <td class="col-rabu">B. Inggris</td>
+      <td class="col-kamis">DKV</td>
+      <td class="col-jumat">Pengajian</td>
+    </tr>
+    <tr>
+      <td class="col-no">2.</td>
+      <td class="col-jam">07.40 - 08.20</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">PKN</td>
+      <td class="col-rabu">B.Inggris</td>
+      <td class="col-kamis">DKV</td>
+      <td class="col-jumat">IPAS</td>
+    </tr>
+    <tr>
+      <td class="col-no">3.</td>
+      <td class="col-jam">08.20 - 09.40</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">DKV</td>
+      <td class="col-rabu">B.Inggris</td>
+      <td class="col-kamis">DKV</td>
+      <td class="col-jumat">IPAS</td>
+    </tr>
+    <tr class="istirahat">
+      <td colspan="7">Istirahat</td>
+    </tr>
+    <tr>
+      <td class="col-no">5.</td>
+      <td class="col-jam">10.00 - 10.40</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">MTK</td>
+      <td class="col-rabu">DKV</td>
+      <td class="col-kamis">Agama</td>
+      <td class="col-jumat">B.Indonesia</td>
+    </tr>
+    <tr>
+      <td class="col-no">6.</td>
+      <td class="col-jam">10.40 - 11.20</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">MTK</td>
+      <td class="col-rabu">DKV</td>
+      <td class="col-kamis">Agama</td>
+      <td class="col-jumat">Jumat</td>
+    </tr>
+    <tr>
+      <td class="col-no">7.</td>
+      <td class="col-jam">11.20 - 12.00</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">MTK</td>
+      <td class="col-rabu">DKV</td>
+      <td class="col-kamis">Agama</td>
+      <td class="col-jumat">Istirahat</td>
+    </tr>
+    <tr class="istirahat">
+      <td colspan="7">Istirahat/Sholat Jum'at</td>
+    </tr>
+    <tr>
+      <td class="col-no">8.</td>
+      <td class="col-jam">12.45 - 13.25</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">Pemrograman </td>
+      <td class="col-rabu">DKV</td>
+      <td class="col-kamis">DKV</td>
+      <td class="col-jumat">JumSih</td>
+    </tr>
+    <tr>
+      <td class="col-no">9.</td>
+      <td class="col-jam">13.25 - 14.05</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">Pemrograman </td>
+      <td class="col-rabu">DKV</td>
+      <td class="col-kamis">DKV</td>
+      <td class="col-jumat">JumSih</td>
+    </tr>
+    <tr>
+      <td class="col-no">10.</td>
+      <td class="col-jam">14.05 - 14.45</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">Pemrograman </td>
+      <td class="col-rabu">IPAS</td>
+      <td class="col-kamis">B.Korea</td>
+      <td class="col-jumat">Ekskul</td>
+    </tr>
+    <tr>
+      <td class="col-no">11.</td>
+      <td class="col-jam">14.45 - 15.25</td>
+      <td class="col-senin">DKV</td>
+      <td class="col-selasa">Pemrograman </td>
+      <td class="col-rabu">IPAS</td>
+      <td class="col-kamis">B.Korea</td>
+      <td class="col-jumat">Ekskul</td>
+    </tr>
+    <tr>
+      <td class="col-no">12.</td>
+      <td class="col-jam">14.45 - 17.00</td>
+      <td class="col-senin">-</td>
+      <td class="col-selasa">-</td>
+      <td class="col-rabu">-</td>
+      <td class="col-kamis">-</td>
+      <td class="col-jumat">Ekskul</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
